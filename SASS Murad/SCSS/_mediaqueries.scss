@@ -1,0 +1,361 @@
+@media (max-width: 800px) and (min-width: 200px) {
+  .contenedoralfa {
+    background-image: url(../img/barbinico.jpg);
+    background-size: cover;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat 10, auto;
+  }
+
+  .navbar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  h1 {
+    color: aliceblue;
+    background-image: url(../img/fullband2.jpg);
+    border-radius: 20px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+  }
+
+  h2 {
+    color: aliceblue;
+    padding: 50px;
+    background-image: url(../img/barbistage.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .listita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 60px;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .centrado {
+    align-items: center;
+    text-align: center;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenido {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    padding: 40px;
+    background-image: url(../img/feiserlito.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .comograbamos {
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    background-image: url(../img/francolive.jpg);
+    background-size: cover;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .conocenos {
+    background-image: url(img/bandfondoazul.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .conocenoslista {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .tarjetas {
+    display: flex;
+    flex-direction: row;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  footer {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  /*MEDIA EQUIPAMIENTO*/
+  .bodyequipamiento {
+    background-attachment: fixed;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-image: url(../img/bandfondoazul.jpg);
+  }
+
+  .comoequipamiento {
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    color: rgb(92, 0, 179);
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .dawequipamiento {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+  }
+
+  .imagencubaseequipamiento {
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  .descripcionAequipamiento {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+  }
+
+  .imagenaudientequipamiento {
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 500px;
+    margin-bottom: -100px;
+  }
+
+  .interfazaudioequipamiento {
+    font-size: 25px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .interfaz1equipamiento {
+    width: 100%;
+    font-size: 40px;
+    margin-top: -340px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+    position: absolute;
+  }
+
+  .elementosbloqueoequipamiento {
+    width: 100%;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+  }
+
+  .monitoresequipamiento {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+    margin-top: 550px;
+  }
+
+  .descripcionCequipamiento {
+    font-size: 25px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+  }
+
+  .rokitequipamiento {
+    border-radius: 60px;
+    width: 100%;
+  }
+
+  .monitoresBequipamiento {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 1px;
+    border-radius: 60px;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .microfonoequipamiento {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+  }
+
+  .descripcionDequipamiento {
+    margin-right: 1px;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 400px;
+  }
+
+  .micfotoequipamiento {
+    margin-left: 1px;
+    width: 100%;
+    border-radius: 60px;
+    position: absolute;
+  }
+
+  .guitarraequipamiento {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+  }
+
+  .descripcionEequipamiento {
+    margin-left: 1px;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 300px;
+  }
+
+  .violaequipamiento {
+    border-radius: 60px;
+    margin-top: 150px;
+    margin-left: 1px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .bajoequipamiento {
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+  }
+
+  .descripcionFequipamiento {
+    margin-right: 1px;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 300px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .imagenbajoequipamiento {
+    margin-left: 1px;
+    width: 100%;
+    border-radius: 60px;
+    position: absolute;
+  }
+
+  .bateriaequipamiento {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+  }
+
+  .descripcionGequipamiento {
+    margin-left: 1px;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 600px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 60px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bateriafotoequipamiento {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 60px;
+    position: absolute;
+  }
+
+  .footerequipamiento {
+    text-align: center;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+
+  /*ELIEZER*/
+  .bodyfeiser {
+    background-image: url(../img/feiserque.jpg);
+  }
+
+  .video {
+    margin: 10px;
+  }
+}
